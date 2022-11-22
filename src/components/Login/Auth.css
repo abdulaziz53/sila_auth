@@ -1,0 +1,223 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 100%;
+  height: 100vh;
+  background-image: url("../Assets/img/background_gradient.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.form_container .logo {
+  width: 440px;
+  height: 132px;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.form_container {
+  max-width: 100%;
+  height: 100vh;
+}
+
+.form_box {
+  width: 395px;
+  height: 270px;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(146, 167, 199, 0.28);
+  border-radius: 30px;
+}
+
+.form_box input a {
+  padding: 100px;
+}
+
+.form_box .login,
+.form_box .pass {
+  width: 335px;
+  height: 30px;
+  display: block;
+  border: 0;
+  background: none;
+  /* color: rgb(2, 2, 2); */
+  border-bottom: 2px solid #fff;
+  margin: 30px auto;
+  padding: 14px 15px;
+  outline: none;
+}
+
+.form_box .btn_lg {
+  width: 45px;
+  height: 30px;
+  background: rgba(146, 167, 199, 0.28);
+  border-radius: 5px;
+  border: none;
+  color: #ffffff;
+  line-height: 14.52px;
+  font-weight: 600;
+  font-size: 12px;
+  display: block;
+  margin: 20px auto;
+  align-items: center;
+  cursor: pointer;
+}
+
+.forget {
+  display: flex;
+  margin: 20px auto;
+  margin-bottom: 10px;
+  text-decoration: none;
+  width: 125px;
+  height: 15px;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  color: #ffffff;
+}
+
+.message .help {
+  margin-left: 11px;
+  width: 16px;
+  height: 16px;
+}
+
+/*  */
+
+@media only all and (max-width: 1024px) {
+  .form_box .login,
+  .form_box .pass {
+    margin: 30px auto;
+  }
+}
+
+@media only all and (max-width: 768px) {
+  .form_box .login,
+  .form_box .pass {
+    margin: 30px auto;
+  }
+}
+
+@media only all and (max-width: 426px) {
+  .form_container .logo {
+    width: 350px;
+    height: 70px;
+  }
+
+  .form_box {
+    width: 300px;
+    height: 200px;
+  }
+
+  .form_box .login,
+  .form_box .pass {
+    width: 220px;
+    height: 30px;
+    margin: 20px auto;
+  }
+}
+
+@media only all and (max-width: 376px) {
+  .form_container .logo {
+    width: 220px;
+    height: 70px;
+  }
+
+  .form_box {
+    width: 275px;
+    height: 200px;
+  }
+
+  .form_box .login,
+  .form_box .pass {
+    width: 220px;
+    height: 30px;
+    margin: 20px auto;
+  }
+}
+
+@media only all and (max-width: 321px) {
+  .form_container .logo {
+    width: 240px;
+    height: 70px;
+  }
+
+  .form_box {
+    width: 275px;
+    height: 200px;
+  }
+
+  .form_box .login,
+  .form_box .pass {
+    width: 220px;
+    height: 30px;
+    margin: 20px auto;
+  }
+}
+
+@media only all and (max-width: 300px) {
+  .form_container .logo {
+    width: 200px;
+    height: 70px;
+  }
+
+  .form_box {
+    width: 255px;
+    height: 200px;
+  }
+
+  .form_box .login,
+  .form_box .pass {
+    width: 220px;
+    height: 30px;
+    margin: 20px auto;
+  }
+}
+
+@media only all and (max-width: 280px) {
+  .form_container .logo {
+    max-width: 180px;
+    height: 70px;
+  }
+
+  .form_box {
+    width: 235px;
+    height: 200px;
+  }
+
+  .form_box .login,
+  .form_box .pass {
+    width: 200px;
+    height: 30px;
+    margin: 20px auto;
+  }
+}
+
+@media only all and (max-width: 280px) {
+  .form_container .logo {
+    max-width: 180px;
+    height: 70px;
+  }
+
+  .form_box {
+    width: 180px;
+    height: 200px;
+  }
+
+  .form_box .login,
+  .form_box .pass {
+    width: 150px;
+    height: 30px;
+    margin: 20px auto;
+  }
+}
